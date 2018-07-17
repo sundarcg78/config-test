@@ -1,0 +1,6 @@
+app:
+toggleRTLA: false
+sasURL: http://www.google.com/from-config-server-application-yml
+
+security.basic.enabled: false
+management.security.enabled: false
