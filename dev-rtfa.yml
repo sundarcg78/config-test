@@ -1,0 +1,6 @@
+rtfa:
+ toggleRTLA: false
+ sasURL: https:\\www.google.com\\from-config-server-dev
+
+security.basic.enabled: false
+management.security.enabled: fals
