@@ -4,7 +4,7 @@ cdeOAuthURL:
 enableCDE: true
 
 #SAS PROPERTIES
-sasURL: sas_dev_url
+sasURL: sas_server_url@3:34-23/7
 enableSAS: true
 
 #FPDS PROPERTIES
