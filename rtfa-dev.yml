@@ -1,0 +1,12 @@
+#CDE PROPERTIES
+cdeURL: cde_dev_url
+cdeOAuthURL: 
+enableCDE: true
+
+#SAS PROPERTIES
+sasURL: sas_dev_url
+enableSAS: true
+
+#FPDS PROPERTIES
+fpdsURL:  
+fpdsOAuthURL: 
