@@ -1,12 +1,21 @@
 #CDE PROPERTIES
-cdeURL: cde_dev_url
-cdeOAuthURL: 
 enableCDE: true
+cdeURL: https://abc.com/v1/Credit-Bureau-Details
+cdeOAuthURL: https://abc.com/v2/oauth/token
+
 
 #SAS PROPERTIES
-sasURL: sas_dev_url@3:46-23/7
 enableSAS: true
+sasURL: https://abc.com/Fraud
+sasOAuthURL: 
 
-#FPDS PROPERTIES
-fpdsURL:  
-fpdsOAuthURL: 
+fpdsURL: https://abc.com/application/fpds/v1/rtfa_infogix
+fpdsOAuthURL: https://abc.com/v2/oauth/token
+
+readTimeOutInMS: 60000
+
+# possible values : ON , OFF
+internalTestDecline: false
+internalTestCustomerSegment:  
+
+server.tomcat.max-connections:100
