@@ -1,6 +1,21 @@
-rtfa:
- toggleRTLA: false
- sasURL: https:\\www.google.com\\from-config-server-dev
+#CDE PROPERTIES
+enableCDE: true
+cdeURL: https://abc.com/v1/Credit-Bureau-Details
+cdeOAuthURL: https://abc.com/v2/oauth/token
 
-security.basic.enabled: false
-management.security.enabled: false
+
+#SAS PROPERTIES
+enableSAS: true
+sasURL: https://abc.com/Fraud
+sasOAuthURL: 
+
+fpdsURL: https://abc.com/application/fpds/v1/rtfa_infogix
+fpdsOAuthURL: https://abc.com/v2/oauth/token
+
+readTimeOutInMS: 60000
+
+# possible values : ON , OFF
+internalTestDecline: false
+internalTestCustomerSegment:  
+
+server.tomcat.max-connections:100
